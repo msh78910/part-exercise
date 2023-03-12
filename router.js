@@ -17,3 +17,16 @@ function route (handle, pathname, request, response) {
 }
 
 exports.route = route;
+
+
+
+// نحوه صدا زدن تابع ها در درن then
+// const welcome = new Promise(function (resolve, reject) {
+//   resolve("Hello");
+// });
+
+// welcome
+//   .then(res1 => res1.split(""))      // ["H", "e", "l", "l", "o"]
+//   .then(res2 => res2.reverse())      // ["o", "l", "l", "e", "H"]
+//   .then(res3 => res3.join(""))       // olleH
+//   .then(res4 => alert(res4));        // olleH
